@@ -3,7 +3,7 @@ var fs = require('fs');
 function createFile(result) {
     let stringResult = String(result);
 
-    fs.appendFile('./archivo.txt', stringResult + "\n", function error(error) {
+    fs.appendFile('./log.txt', stringResult + "\n", function error(error) {
         if (error) {
             console.log('Hubo un error');
         }else {
