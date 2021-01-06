@@ -6,6 +6,7 @@ Nuestro módulo debe tener la posibilidad de:
 - Restar
 - Multiplicar
 - Dividir
+
 Realizar cualquier operación desde app.js
 
 Guarda cada ejecución de nuestro módulo en un archivo log.txt
